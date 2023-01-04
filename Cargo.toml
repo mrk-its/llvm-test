@@ -1,0 +1,15 @@
+[package]
+name = "mos-test"
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mrk-its/mos-test"
+description = "custom test runner for rust-mos"
+keywords = ["llvm-mos", "mos", "testing", "6502"]
+readme = "README.md"
+
+[lib]
+
+[dependencies]
+mos-test-macros = {version="0.0.1", path = "macros"}
+ufmt-stdio = "0"
